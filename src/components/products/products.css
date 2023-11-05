@@ -1,0 +1,102 @@
+
+.products {
+    background: rgb(250, 239, 239);
+    background: linear-gradient(135deg, white 0%, rgb(84, 88, 96) 100%);
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.product-header {
+    margin: 20px;
+    text-transform: uppercase;
+}
+
+.dropdown,
+.select-option {
+    margin-left: 20px;
+    padding: 10px;
+    border-radius: 8px;
+    width: 250px;
+}
+
+.smartphones,
+.laptops,
+.fragrances,
+.skincare,
+.home-decoration,
+.groceries {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.smartphones-cards,
+.laptops-cards,
+.fragrances-cards,
+.home-decoration-cards,
+.skincare-cards,
+.groceries-cards {
+   width: 200px;
+   height: 520px;
+   cursor: pointer;
+   background-color: aliceblue;
+   border: 1px solid #e8e8e8;
+   margin: 10px;
+   border-radius: 7px;
+}
+
+.thumbnail {
+    border-top-right-radius: 7px;
+    border-top-left-radius: 7px;
+}
+
+.title {
+    font-size: 16px;
+    font-weight: 600;
+    display: flex;
+    padding-bottom: 5px;
+}
+
+.details {
+    margin-left: 10px;
+    padding: 10px;
+}
+
+.price {
+    font-size: 20px;
+    font-weight: 700;
+    display: flex;
+    padding-top: 15px;
+    padding-bottom: 5px;
+}
+
+.sub-title {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.read-more {
+    text-decoration: none !important;
+    color: #424242;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.read-more:hover {
+    color: #121212;
+}
+
+@media screen and (max-width: 800px) {
+    .smartphones,
+    .laptops,
+    .fragrances,
+    .skincare,
+    .home-decoration,
+    .groceries {
+        flex-wrap: wrap;
+    }
+
+    .background-img {
+        margin-top: 10rem;
+    }
+}

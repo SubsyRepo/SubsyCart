@@ -1,0 +1,148 @@
+.product-details {
+    margin-top: 6rem;
+}
+
+.slide-image-1,
+.slide-image-2,
+.slide-image-3 {
+    width: 300px;
+    height: 300px;
+}
+
+.carousel-item {
+    left: 38%;
+}
+
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+    background-color: #121212
+}
+
+.carousel {
+    margin-bottom: 30px;
+}
+
+.product-wise-details{
+    border-top: 1px solid #424242;
+    padding-top: 20px;
+    margin-bottom: 30px;
+}
+
+.product-title,
+.product-price {
+    font-size: 24px;
+    font-weight: 700;
+    padding-top: 2px;
+}
+
+.product-heading,
+.product-pricing {
+    margin-left: 3%;
+}
+
+.product-description-text {
+    font-size: 24px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.description-1 {
+    border-right: 2px solid #424242;
+    margin-right: 30px;
+    width: 50%;
+}
+
+.description-2 {
+    display: grid;
+    width: 40%;
+}
+
+.buttons {
+    margin-left: 38%;
+    margin-bottom: 30px;
+}
+
+.button-1,
+.button-2 {
+    padding: 12.5px 30px;
+    border: 0;
+    border-radius: 100px;
+    background-color: #2ba8fb;
+    color: #ffffff;
+    font-weight: Bold;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+}
+
+.button-1 {
+    margin-right: 20px;
+}
+
+.product-description {
+    display: inline;
+}
+
+.star {
+    vertical-align: text-bottom;
+}
+
+.product-stock {
+    display: block;
+}
+
+.product-discount {
+    font-weight: 600;
+    margin-left: 10px;
+    color: red;
+}
+
+.rating {
+    padding-top: 5px;
+}
+
+.product-rating {
+    font-weight: 600;
+    padding-left: 5px;
+    border: 1px solid #a3a3a3;
+    border-radius: 5px;
+    margin-left: 30px;
+    margin-top: 8px;
+}
+
+@media screen and (max-width: 800px) {
+    .carousel-item {
+        left: 10%;
+    }
+
+    .product-details {
+        margin-top: 12rem;
+    }
+
+    .product-wise-details {
+        flex-direction: column;
+    }
+
+    .description-1 {
+        border-right: none;
+        width: 100%;
+        padding-bottom: 20px;
+        border-bottom: 1px solid #121212;
+    }
+
+    .description-2 {
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    .product-description-text {
+        font-size: 20px;
+    }
+
+    .product-description {
+        font-size: 14px;
+    }
+
+    .buttons {
+        margin-left: 10%
+    };
+}
